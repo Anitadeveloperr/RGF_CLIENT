@@ -1,0 +1,17 @@
+.dashboard_link_style{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    transition: 0.5s;
+}
+.dashboard_link_style:hover{
+    background-color: aliceblue;
+}
+
+@media only screen and (min-width: 768px) {
+    .dashboard_lift_style{
+        height: 100vh;
+        position: sticky;
+        top: 20px;
+    }
+}

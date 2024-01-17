@@ -1,0 +1,106 @@
+.landing_page{
+     background-image: url('../../assets/Texas-home-with-a-lush-artificial-grass.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.landing_page .landing_page_Background_overly{
+    background-color: rgba(0, 0, 0, 0.473);
+}
+.landing_page .landing_page_Background_overly .hero_section_bottomPert_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.356);
+    backdrop-filter: blur(4px);
+    border-radius: 40px 20px 40px 20px;
+}
+.landing_page .landing_page_Background_overly .hero_section_bottomPert_style p{
+    margin: 0;
+}
+.landing_page .landing_page_Background_overly .hero_section_bottomPert_style span a:hover{
+    color: green !important;
+    transition: 0.5s;
+}
+.landing_page_hero_text{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1px 1px rgba(44, 44, 44, 0.205);
+}
+
+.landingPageButtonPrenentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px 0;
+}
+
+.landingPageButtonDiv .heroBtnStyle{
+    position: relative;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 30px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.landingPageButtonDiv .heroBtnStyle::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    transform: scale(0);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.landingPageButtonDiv .heroBtnStyle:hover::after{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1);
+}
+.landingPageButtonDiv .heroBtnStyle:hover{
+    color: black;
+}
+
+
+/* Responsive Hero Section _________________________ */
+@media only screen and (max-width: 768px) {
+    .landing_page_hero_text{
+        font-size: 2.2rem;
+    }
+
+    .landingPageButtonDiv .heroBtnStyle{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 6px 20px;
+    }
+    .landing_page{
+        background-image: url('../../assets/optimizeForMobile.webp');
+   }
+}
+@media only screen and (max-width: 462px) {
+    .landing_page_hero_text{
+        font-size: 1.8rem;
+    }
+
+    .landingPageButtonPrenentDiv{
+        display: block;
+    }
+    .landingPageButtonDiv .heroBtnStyle{
+        display: block;
+        text-align: center;
+    }
+}
+
+

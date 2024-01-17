@@ -1,0 +1,42 @@
+.edit_product_form input {
+    width: 100%;
+    display: block;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.edit_product_form input:focus {
+    outline: 1px solid aqua;
+}
+.edit_product_form textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.edit_product_form textarea:focus {
+    outline: 1px solid aqua;
+}
+.imageBoxBackground{
+    /* background-image: url(../../../assets/free-gallery-187-902099.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imageBoxBackground .deleteIcon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

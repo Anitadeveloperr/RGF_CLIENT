@@ -1,0 +1,21 @@
+
+.keyBenefitsSectionButton{
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+}
+.keyBenefitsSectionButton::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: rgb(18, 18, 18);
+    transition: 0.5s;
+}
+.keyBenefitsSectionButton:hover::after{
+    width: 0;
+}

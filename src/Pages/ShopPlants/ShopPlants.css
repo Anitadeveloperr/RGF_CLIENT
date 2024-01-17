@@ -1,0 +1,36 @@
+#shopPlantsSection .shopPlantsHeroBackground{
+    background-image: url('../../assets/LandingPage/DSC_1311.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shopPlantsSection .shopPlantsHeroBackground .backgroundOverlyColor{ 
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopPlantsSection .shopPlantsHeroBackground .shopPlantsTitle{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Responsive ShopPlants Page _______________________________ */
+@media only screen and (max-width: 768px) {
+    #shopPlantsSection .shopPlantsHeroBackground .shopPlantsTitle{
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #shopPlantsSection .shopPlantsHeroBackground .backgroundOverlyColor{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #shopPlantsSection .shopPlantsHeroBackground .backgroundOverlyColor{
+        min-height: 250px;
+    }
+}

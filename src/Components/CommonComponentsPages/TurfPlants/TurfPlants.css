@@ -1,0 +1,9 @@
+.turfPlantsCard .turfPlantsCardInnerDiv{
+    border-radius: 20%;
+    overflow: hidden;
+    height: 100%;;
+}
+.turfPlantsCard .turfPlantsCardInnerDiv .turfPlantsCardTitle{
+    font-size: 18px;
+    color: #579404;
+}

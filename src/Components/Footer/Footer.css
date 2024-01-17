@@ -1,0 +1,19 @@
+.footer_innerShadow{
+    box-shadow: inset 0 1px 15px rgb(181, 181, 181);
+}
+.footer_image_style{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.footer_image_style img{
+    width: 80px;
+    height: 75.06px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_image_style {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

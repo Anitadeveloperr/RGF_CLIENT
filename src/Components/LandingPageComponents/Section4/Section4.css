@@ -1,0 +1,12 @@
+#landingPageSection4{
+    background-color: #eaefe4;
+}
+#landingPageSection4 .section4_card_hover{
+    transition: 0.5s;
+}
+#landingPageSection4 .section4_card_hover:hover{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(80, 80, 80);
+    transition: 0.5s;
+}

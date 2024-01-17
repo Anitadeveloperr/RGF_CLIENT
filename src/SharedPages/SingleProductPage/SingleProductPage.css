@@ -1,0 +1,15 @@
+.tab-content{
+    background-color: #eaefe4 !important;
+    padding: 20px;
+}
+.nav-tabs li button{
+    font-weight: bold;
+    color: #80c41c;
+}
+.nav-tabs li button:hover{
+    color: #80c41c;
+    background-color: #81c41c0e;
+}
+.nav-tabs li .active{
+    background-color: #eaefe4 !important;
+}

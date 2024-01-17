@@ -1,0 +1,7 @@
+.admin_page_input_design input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin: 10px 0;
+}

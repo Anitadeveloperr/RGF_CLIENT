@@ -1,0 +1,55 @@
+.contactFormProduct .contact_form_input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.contactFormProduct .captcha_input{
+    margin-top: 15px;
+    width: 200px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contactFormProduct .contact_form_input:focus{
+    outline: none;
+}
+
+
+.contactFormProduct .contact_form_submit_button{
+    position: relative;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px 30px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.contactFormProduct .contact_form_submit_button::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    transform: scale(0);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.contactFormProduct .contact_form_submit_button:hover::after{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1);
+}
+.contactFormProduct .contact_form_submit_button:hover{
+    color: rgb(12, 12, 12);
+}

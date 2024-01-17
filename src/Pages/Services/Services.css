@@ -1,0 +1,32 @@
+#servicesPage .servicesPageHeroBackground{
+    background-image: url('../../assets/ServicesPageImage/free-quote.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#servicesPage .servicesPageHeroBackground .servicesBackgroundOverly{
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#servicesPage .servicesPageHeroBackground .servicesPageTitle{
+    color: white;
+    text-align: center;
+    font-size: 2.875rem;
+    font-family: 'Vibur', cursive;
+}
+
+
+
+/* Responsive Services Page _______________________________________________ */
+@media only screen and (max-width: 768px) {
+    #servicesPage .servicesPageHeroBackground .servicesBackgroundOverly{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #servicesPage .servicesPageHeroBackground .servicesBackgroundOverly{
+        min-height: 250px;
+    }
+}

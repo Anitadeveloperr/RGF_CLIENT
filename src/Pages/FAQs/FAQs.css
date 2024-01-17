@@ -1,0 +1,30 @@
+#faq_page{
+    background-image: url('../../assets/FAQsPageImage/maintained-garden-with-artificial-turf.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#faq_page .faq_page_hero_section_overly_color{
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#faq_page .faq_page_hero_section_overly_color .faq_page_hero_section_text h2{
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: white;
+}
+
+
+/* Responsive About Page _______________________________________________ */
+@media only screen and (max-width: 768px) {
+    #faq_page .faq_page_hero_section_overly_color{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #faq_page .faq_page_hero_section_overly_color{
+        min-height: 250px;
+    }
+}

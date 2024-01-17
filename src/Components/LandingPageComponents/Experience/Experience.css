@@ -1,0 +1,50 @@
+/* Button Design ______________________________ */
+.ExperiencePageButtonDiv .ExperienceBtnStyle{
+    position: relative;
+    color: rgb(44, 44, 44);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(74, 74, 74) !important;
+    padding: 10px 30px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.ExperiencePageButtonDiv .ExperienceBtnStyle::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(36, 36, 36);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.ExperiencePageButtonDiv .ExperienceBtnStyle:hover::after{
+    width: 100%;
+    
+}
+.ExperiencePageButtonDiv .ExperienceBtnStyle:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* Image box Design __________________ */
+.img_box_landing{
+    border: 1px solid rgb(210, 210, 210);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img_box_landing img{
+    width: 100%;
+    height: auto;
+}
+.img_box_landing h3{
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 1.5rem;
+    font-weight: normal;
+}

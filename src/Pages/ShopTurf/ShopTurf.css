@@ -1,0 +1,35 @@
+#shopTurfSection .shopTurfHeroBackground{
+    background-image: url('../../assets/ShofTurfImage/Looks-Lush-and-Full.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shopTurfSection .shopTurfHeroBackground .backgroundOverlyColor{ 
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopTurfSection .shopTurfHeroBackground .shopTurfTitle{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Responsive ShopTurf Page _______________________________ */
+@media only screen and (max-width: 768px) {
+    #shopTurfSection .shopTurfHeroBackground .shopTurfTitle{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #shopTurfSection .shopTurfHeroBackground .backgroundOverlyColor{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #shopTurfSection .shopTurfHeroBackground .backgroundOverlyColor{
+        min-height: 250px;
+    }
+}

@@ -1,0 +1,15 @@
+.backgroundImage{
+    background-image: url('../../assets/ShofTurfImage/Looks-Lush-and-Full.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImage .backgrondOverly{
+    background-color: rgba(0, 0, 0, 0.452);
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ant-input-search-button{
+    background-color: green !important;
+}

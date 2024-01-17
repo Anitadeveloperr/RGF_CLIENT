@@ -1,0 +1,48 @@
+#aboutHeroSection{
+    background-image: url('../../assets/AboutUsImages/interior-courtyard-turf-design.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutHeroSection .about_hero_section_overly_color{
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutHeroSection .about_hero_section_overly_color .about_hero_section_text p{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+}
+#aboutHeroSection .about_hero_section_overly_color .about_hero_section_text p::after{
+    position: absolute;
+    content: '';
+    height: 3px; 
+    width: 30px;
+    left: 42%;
+    bottom: -15px;
+    border-radius: 20px;
+    background-color: black;
+}
+#aboutHeroSection .about_hero_section_overly_color .about_hero_section_text h2{
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: white;
+}
+
+
+/* Responsive About Page _______________________________________________ */
+@media only screen and (max-width: 768px) {
+    #aboutHeroSection .about_hero_section_overly_color{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #aboutHeroSection .about_hero_section_overly_color{
+        min-height: 250px;
+    }
+}

@@ -1,0 +1,81 @@
+#submit_page{
+    background-image: url('../../assets/hero_quote.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#submit_page .submit_page_hero_section_overly_color{
+    background-color: rgba(0, 0, 0, 0.473);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit_page .submit_page_hero_section_overly_color .submit_page_hero_section_text h2{
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: white;
+}
+
+.submitDatacontact_form .contact_form .contact_form_input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.submitDatacontact_form .contact_form .contact_form_input:focus{
+    outline: none;
+}
+
+.submitDatacontact_form{
+    background-color: #d7ddd0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px green;
+}
+
+.submitDatacontact_form .contact_form_submit_button{
+    position: relative;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px 30px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.submitDatacontact_form .contact_form_submit_button::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    transform: scale(0);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.submitDatacontact_form .contact_form_submit_button:hover::after{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1);
+}
+.submitDatacontact_form .contact_form_submit_button:hover{
+    color: rgb(12, 12, 12);
+}
+
+
+
+/* Responsive About Page _______________________________________________ */
+@media only screen and (max-width: 768px) {
+    #submit_page .submit_page_hero_section_overly_color{
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #submit_page .submit_page_hero_section_overly_color{
+        min-height: 250px;
+    }
+}
